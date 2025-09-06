@@ -8,9 +8,7 @@ import {
   Globe, 
   Zap,
   Eye,
-  Code2,
-  BarChart3,
-  Cpu
+  BarChart3
 } from 'lucide-react';
 
 const Projects: React.FC = () => {
@@ -88,8 +86,6 @@ const Projects: React.FC = () => {
       featured: false
     }
   ];
-
-  const categories = ['All', 'AI/ML', 'Data Science', 'Web Development', 'Computer Vision', 'FinTech', 'Blockchain'];
 
   return (
     <section id="projects" className="py-20 px-4 bg-dark-900">

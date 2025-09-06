@@ -6,23 +6,18 @@ import {
   Database, 
   Globe, 
   Cpu, 
-  Zap,
-  Python,
-  Java,
-  GitBranch,
   BarChart3,
-  Layers,
   Terminal
 } from 'lucide-react';
 
 const About: React.FC = () => {
   const skills = [
     { name: 'AI/ML', icon: Brain, level: 95, color: 'from-purple-400 to-pink-400' },
-    { name: 'Python', icon: Python, level: 90, color: 'from-blue-400 to-cyan-400' },
+    { name: 'Python', icon: Code, level: 90, color: 'from-blue-400 to-cyan-400' },
     { name: 'Machine Learning', icon: Cpu, level: 88, color: 'from-green-400 to-emerald-400' },
     { name: 'Data Science', icon: BarChart3, level: 85, color: 'from-orange-400 to-red-400' },
     { name: 'Web Development', icon: Globe, level: 80, color: 'from-indigo-400 to-purple-400' },
-    { name: 'Java', icon: Java, level: 75, color: 'from-yellow-400 to-orange-400' },
+    { name: 'Java', icon: Terminal, level: 75, color: 'from-yellow-400 to-orange-400' },
     { name: 'C/C++', icon: Code, level: 70, color: 'from-gray-400 to-blue-400' },
     { name: 'Database', icon: Database, level: 65, color: 'from-teal-400 to-cyan-400' },
   ];
